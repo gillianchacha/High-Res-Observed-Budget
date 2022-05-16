@@ -10,9 +10,9 @@
  There are two custom modules written by Dr Harry Heorton, and an executable Jupyter Notebook. The modules and notebook are used in the following steps:
  #### 1. Import and process data into Jupyter
    #### Key features
-    - Data formats are in raw format, with no preprocessing, smoothing or regridding needed beforehand. 
-    - Capable of computing daily and monthly budget.
-    - Can accomodate gaps in data.
+   - Data formats are in raw format, with no preprocessing, smoothing or regridding needed beforehand. 
+   - Capable of computing daily and monthly budget.
+   - Can accomodate gaps in data.
 
 
  ### 2. Module 1: Budget inputs
@@ -27,11 +27,11 @@
 
  ### 4. Plot data
    #### Key features
-    - Timeseries of decomposed budget
-    - Map composites combining sea ice drift vectors and budget components
+   - Timeseries of decomposed budget
+   - Map composites combining sea ice drift vectors and budget components
 
 
  ### 5. Calculate volume estimates of budget components
    #### Key features
-    - Mask data to constrain to regions of convergence only. This mask can be altered as you wish. 
+   - Mask data to constrain to regions of convergence only. This mask can be altered as you wish. 
 
