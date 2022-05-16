@@ -3,12 +3,12 @@
 
  ## High-resolution sea ice concentration budget analysis in the Arctic’s Last Ice Area
  ### Overview
- This repository contains the data files and code needed to run the high-resolution sea ice conncentration budget analysis over the Arctic's Last Ice Area. The data processing and budget calculation is adapted minimally from previous code by Dr Harry Heorton. 
+ This repository contains the data files and code needed to run the sea ice conncentration budget analysis. The data processing and budget calculation modules have been kindly provided by Dr Harry Heorton. Data plotting and analysis is executed on the Jupyter Notebook.
 
  Example data presented in this repository is for 18-24 March 2020. The full dataset and accompanying code is also running on the server on /home/gch/MSci_Submission
 
- There are two custom modules written by Dr Harry Heorton, and an executable Jupyter Notebook. The modules and notebook are used in the following steps:
- #### 1. Import and process data into Jupyter
+ There are two custom modules provided by Dr Harry Heorton, and an executable Jupyter Notebook. The modules and notebook are used in the following steps:
+ ### 1. Import and process data into Jupyter
    #### Key features
    - Data formats are in raw format, with no preprocessing, smoothing or regridding needed beforehand. 
    - Capable of computing daily and monthly budget.
