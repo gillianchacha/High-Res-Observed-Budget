@@ -1,0 +1,11 @@
+FF=$(ls ECCC_SIM_PREMELT*)
+for FF in $(ls ECCC_SIM_PREMELT*)
+do
+#### find date
+FFF=$(echo $FF| sed -n 's/.*_PREMELT_//p')
+year=${FFF:0:4}
+month=${FFF:4:2}
+ddir=$year'-'$month
+mkdir -p $ddir
+mv $FF $ddir'/.'
+done
