@@ -8,24 +8,29 @@
  Example data presented in this repository is for 18-24 March 2020. The full dataset and accompanying code is also running on the server on /home/gch/MSci_Submission
 
  There are two custom modules written by Dr Harry Heorton, and an executable Jupyter Notebook. The modules and notebook are used in the following steps:
- 1. Import and process data into Jupyter
-    #### Key features
+ #### 1. Import and process data into Jupyter
+    Key features
     - Data formats are in raw format, with no preprocessing, smoothing or regridding needed beforehand. 
     - Capable of computing daily and monthly budget.
     - Can accomodate gaps in data.
 
- 2. Module 1: Budget inputs
+
+ #### 2. Module 1: Budget inputs
+
  This module contains the code required to access input data on the Jupyter Notebook. Each type of input data has its own class, which enables the script to decide which data it needs to access and when to access it. The input data class is used to access the code.
 
- 3. Module 2: Budget calculation
+ #### 3. Module 2: Budget calculation
+
  This module contains the custom functions used in the code. It contains the smoothing function, as well as functions to calculate the intensification, advection and divergence terms of the observed budget. The main Jupyter Notebook then derives the residual term by subtracting advection and divergence from intensification.
 
- 4. Plot data
-    #### Key features
+
+ #### 4. Plot data
+    Key features
     - Timeseries of decomposed budget
     - Map composites combining sea ice drift vectors and budget components
 
- 5. Calculate volume estimates of budget components
-    #### Key features
+
+ #### 5. Calculate volume estimates of budget components
+    Key features
     - Mask data to constrain to regions of convergence only. This mask can be altered as you wish. 
 
