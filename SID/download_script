@@ -1,4 +1,0 @@
-wget -r -E -nd -k -p -erobots=off -np -N https://crd-data-donnees-rdc.ec.gc.ca/CPS/.83bcdf85-e299-4c2c-9b32-572295d8921b/ECCC_SIM_PREMELT/ --user=premelt_partner --password=gX9kASClbxYIOSTDG7XW -A *.nc
-
-
-wget -r -nd -erobots=off -np  https://crd-data-donnees-rdc.ec.gc.ca/CPS/.83bcdf85-e299-4c2c-9b32-572295d8921b/ECCC_SIM_PREMELT/ --user=premelt_partner --password=gX9kASClbxYIOSTDG7XW -A *202005*.nc
