@@ -1,3 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 grids/ECCC_gs.npz filter=lfs diff=lfs merge=lfs -text
+Sample_Data/G2Gp.npy filter=lfs diff=lfs merge=lfs -text
